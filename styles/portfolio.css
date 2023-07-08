@@ -111,6 +111,10 @@ header {
 }
 
 /* main section style */
+main section {
+    margin-top: 130px;
+}
+
 main {
     max-width: 1140px;
     /* to make out main section into center we can simply do justify-content:center;  */
@@ -143,18 +147,72 @@ main {
 }
 
 .info-descrption p {
-    font-weight:400;
-    color:#757575;
-    
+    font-weight: 400;
+    color: #757575;
+
 }
-#what-i-do-description
-{
+
+#what-i-do-description {
     padding: 30px 150px;
 }
 
 /* What I do section */
-.skills-container
-{
+.skills-container {
     display: flex;
     justify-content: space-around;
+    gap: 24px;
+}
+
+.skills {
+    padding: 30px;
+    /* box-shadow: 5px 5px 5px #b6b3b3; */
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume section style */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-item-description {
+    max-width: 500px;
+    color: #757575;
+}
+.resume-item-institute
+{
+    color: #757575;
+    margin-top:0;
+    margin-bottom: 20px;
+}
+
+
+.resume-item-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.resume-container hr
+{
+     margin: 10px;
+}
+
+.resume-btn
+{
+     text-align: center;
+     margin-top: 50px;
 }
