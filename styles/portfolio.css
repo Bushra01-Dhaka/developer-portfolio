@@ -111,6 +111,13 @@ header {
 }
 
 /* main section style */
+main {
+    max-width: 1140px;
+    /* to make out main section into center we can simply do justify-content:center;  */
+    /* But we can also use margin: 0 auto; */
+    /* auto means o left right e equally portion niye centerized korbe */
+    margin: 0 auto;
+}
 
 /* about section */
 .about {
@@ -118,4 +125,36 @@ header {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: black;
+    font-size: 20px;
+}
+
+.info-descrption p {
+    font-weight:400;
+    color:#757575;
+    
+}
+#what-i-do-description
+{
+    padding: 30px 150px;
+}
+
+/* What I do section */
+.skills-container
+{
+    display: flex;
+    justify-content: space-around;
 }
