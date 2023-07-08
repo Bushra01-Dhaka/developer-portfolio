@@ -1,49 +1,61 @@
 /* shared style */
-body
-{
+body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /* navbar */
-nav
-{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px 0px;
 }
-nav > ul
-{
+
+nav>ul {
     display: flex;
     align-items: center;
 
-    
+
 }
-nav li
-{
+
+nav li {
     list-style: none;
-    margin-right: 50px;  
+    margin-right: 50px;
 }
 
-nav a
-{
+nav a {
     text-decoration: none;
-    color:#474747;
+    color: #474747;
 }
 
-.nav-title
-{
-   color: #181818;
-   font-size: 45px;
-   font-weight: 800;
-   
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
 }
 
 /* button-primary */
-.btn-primary
-{
-    
+.btn-primary {
+
     background-color: #FD6E0A;
     border-radius: 5px;
     border: 0;
@@ -54,20 +66,56 @@ nav a
 }
 
 /* header related style */
-header
-{
-   background-color: antiquewhite;
-}
-.banner
-{
-   padding: 30px 30px 30px 150px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+header {
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
-.banner-img img
-{
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-description {
+    max-width: 500px;
+}
+
+.banner .banner-img {
     width: 500px;
-   
+
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* main section style */
+
+/* about section */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
